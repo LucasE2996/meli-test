@@ -1,6 +1,6 @@
 package com.meli.dna.controller;
 
-import com.meli.dna.Model.Dna;
+import com.meli.dna.model.Dna;
 import com.meli.dna.repository.DnaDAO;
 import com.meli.dna.service.DnaAnalyzer;
 import net.minidev.json.JSONObject;

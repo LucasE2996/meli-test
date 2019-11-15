@@ -1,6 +1,6 @@
 package com.meli.dna.repository;
 
-import com.meli.dna.Model.Dna;
+import com.meli.dna.model.Dna;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

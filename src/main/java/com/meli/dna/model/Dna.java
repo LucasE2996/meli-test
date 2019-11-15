@@ -1,4 +1,4 @@
-package com.meli.dna.Model;
+package com.meli.dna.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

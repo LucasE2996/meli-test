@@ -1,6 +1,6 @@
 package com.meli.dna;
 
-import com.meli.dna.Model.Dna;
+import com.meli.dna.model.Dna;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

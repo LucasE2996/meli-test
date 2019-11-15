@@ -1,6 +1,6 @@
 package com.meli.dna.service;
 
-import com.meli.dna.Model.Dna;
+import com.meli.dna.model.Dna;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -27,6 +27,10 @@ public class DnaAnalyzer {
         float totalRecords = dnaList.size();
         float totalSimian = (float) getNumberOfSimians(dnaList);
         float totalHuman = totalRecords - totalSimian;
+
+        if (totalHuman <= 0) {
+            return 0;
+        }
 
         return totalSimian / totalHuman;
     }

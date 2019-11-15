@@ -43,7 +43,7 @@ Exemplo de corpo:
 
 ```json
 {
-  "dna": ["​CTG​A​G​A​", "​CT​A​T​G​C​", "​T​AT​T​G​T​", "​A​GAG​G​G​", "​CCCC​TA​", "​TCACTG​"]
+  "dna": ["CTGAGA", "CTATGC", "TATTGT", "AGAGGG", "CCCCTA", "TCACTG"]
 }
 ```
 
@@ -70,6 +70,13 @@ Exemplo de resposta:
   "ratio": 0.4
 }
 ```
+
+## Lista de Softwares
+
+Para executar o projeto você irá precisar dos seguintes softwares instalados em sua máquina:
+
+- Maven 3
+- jdk 1.8
 
 ## Author
 

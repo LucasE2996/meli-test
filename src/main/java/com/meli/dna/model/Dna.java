@@ -29,6 +29,10 @@ public class Dna {
         this.dna = dna;
     }
 
+    /**
+     * Constructs a DNA matrix based on current DNA
+     * @return Matrix
+     */
     public String[][] buildDnaMatrix() {
         int size = dna.length;
 
@@ -45,6 +49,11 @@ public class Dna {
         return splitDna;
     }
 
+    /**
+     * Verify if matrix is symmetric
+     * @param matrix Matrix to be analysed
+     * @return true = symmetric; false = not symmetric
+     */
     public boolean isMatrixSquare(String[][] matrix) {
         int columnSize = matrix.length;
         boolean result = true;
@@ -59,6 +68,10 @@ public class Dna {
         return result;
     }
 
+    /**
+     * Verify if DNA has the right letters. Should be only (A, T, C, G)
+     * @return true = valid; false = not valid
+     */
     public boolean isDnaValid() {
         Pattern pattern = Pattern.compile("([^ACGT])");
         StringBuilder dnaReduce = new StringBuilder();

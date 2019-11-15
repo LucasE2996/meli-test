@@ -1,6 +1,12 @@
 package com.meli.dna.service;
 
 public class VerticalHorizontalAnalysis implements Analysis {
+
+    /**
+     * Iterates the matrix and find all groups
+     * @param matrix DNA matrix. The matrix should be symmetric and with valid letters
+     * @return number of groups found
+     */
     @Override
     public int run(String[][] matrix) {
         String lineChar = "";

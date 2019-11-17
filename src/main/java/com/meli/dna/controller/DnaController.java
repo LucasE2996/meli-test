@@ -24,7 +24,7 @@ public class DnaController {
         this.dnaDAO = dnaDAO;
     }
 
-    @PostMapping(value = "/simian", consumes = "application/json")
+    @PostMapping(value = "/simian", consumes = "application/json;charset=UTF-8")
     public ResponseEntity<?> analyse(@RequestBody Map<String, String[]> request) {
         JSONObject json  = new JSONObject();
         String[] rawDna = request.get("dna");
@@ -61,7 +61,7 @@ public class DnaController {
         return new ResponseEntity<>(json, HttpStatus.OK);
     }
 
-    @GetMapping(value = "/stats", produces = "application/json")
+    @GetMapping(value = "/stats", produces = "application/json;charset=UTF-8")
     public ResponseEntity<?> stats() {
         JSONObject json  = new JSONObject();
         List<Dna> dnaList = dnaDAO.findAll();

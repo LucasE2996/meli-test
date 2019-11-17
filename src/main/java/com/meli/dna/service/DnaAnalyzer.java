@@ -15,6 +15,7 @@ public class DnaAnalyzer {
         analyses = new ArrayList<>();
 
         analyses.add(new VerticalHorizontalAnalysis());
+        analyses.add(new DiagonalAnalysis());
     }
 
     /**

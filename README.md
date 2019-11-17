@@ -11,11 +11,11 @@
 
 Para testar a aplicação que está em produção utilize um serviço para testes de requisição HTTP (Postman, Insominia, etc).
 
-URL: *herokuapp.app.com*
-
-> Para rodar localmente e caso você utilize uma IDE java ignore os passos abaixo.
+URL: *https://simian-api-meli.herokuapp.com*
 
 ## Instalação
+
+> Para rodar localmente e caso você utilize uma IDE java ignore os passos abaixo.
 
 Com o maven instalado execute o seguinte comando:
 
@@ -24,6 +24,8 @@ mvn clean install
 ```
 
 ## Usage
+
+> Para rodar localmente e caso você utilize uma IDE java ignore os passos abaixo.
 
 Após finalizada a instalação rode o seguinte comando:
 
@@ -37,7 +39,9 @@ java -jar target/dna-1.0.0.jar
 
 Analisa o DNA passado no corpo da requisição e retorna se este é simian ou humano.
 
-URL: *localhost:8080/simian*
+URL desenvolvimento: *localhost:8080/simian*
+
+URL produção: *https://simian-api-meli.herokuapp.com/simian*
 
 Exemplo de corpo:
 
@@ -59,7 +63,9 @@ Exemplo de resposta:
 
 Retorna a proporção entre DNA simian e humano em ratio.
 
-URL: *localhost:8080/stats*
+URL desenvolvimento: *localhost:8080/stats*
+
+URL produção: *https://simian-api-meli.herokuapp.com/stats*
 
 Exemplo de resposta:
 

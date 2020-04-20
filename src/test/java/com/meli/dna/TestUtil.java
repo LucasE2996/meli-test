@@ -3,7 +3,6 @@ package com.meli.dna;
 import com.meli.dna.model.Dna;
 import org.springframework.http.MediaType;
 
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
